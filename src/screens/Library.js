@@ -4,6 +4,7 @@ const Library = () => {
   return (
     <View>
       <Text>library screen</Text>
+      <Text>another text line</Text>
     </View>
   );
 };
