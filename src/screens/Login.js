@@ -4,6 +4,7 @@ const Login = () => {
   return (
     <View>
       <Text>login screen</Text>
+      <Text>second line</Text>
     </View>
   );
 };
