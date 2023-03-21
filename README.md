@@ -6,4 +6,4 @@ npx expo start
 
 npm start
 
-DO NOT RUN: yarn
+
