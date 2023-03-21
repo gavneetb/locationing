@@ -4,6 +4,7 @@ const SignUp = () => {
   return (
     <View>
       <Text>sign up screen</Text>
+      <Text>second line</Text>
     </View>
   );
 };
