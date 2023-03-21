@@ -1,6 +1,6 @@
 # locationing
 
-#Commands to Start Project
+# Commands to Start Project
 
 npx expo start
 
