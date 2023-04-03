@@ -8,7 +8,7 @@ const HomeScreen = ({ navigation }) => {
       <Button
         onPress={() => navigation.navigate("Map")}
         //giving a title to the button
-        title="takes you to Map page"
+        title="Login"
       />
     </View>
   );

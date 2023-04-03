@@ -1,13 +1,34 @@
-import { View, Text, StyleSheet } from "react-native";
+import React, { Component } from 'react';
+import { View, TextInput, Button, Text} from 'react-native';
 
-const Login = () => {
-  return (
-    <View>
-      <Text>login screen</Text>
-    </View>
-  );
-};
+class Login extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      email: '',
+      password: '',
+    };
+  }
 
-const styles = StyleSheet.create({});
+  render() {
+    return (
+      <View>
+        <Text> Login Page </Text>
+        <TextInput
+          placeholder="Email"
+          onChangeText={(email) => this.setState({ email })}
+          value={this.state.email}
+        />
+        <TextInput
+          placeholder="Password"
+          secureTextEntry={true}
+          onChangeText={(password) => this.setState({ password })}
+          value={this.state.password}
+        />
+        <Button title="Login" onPress={() => alert('Login Button Clicked')} />
+      </View>
+    );
+  }
+}
 
 export default Login;
