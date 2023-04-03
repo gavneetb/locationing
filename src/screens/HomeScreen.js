@@ -12,7 +12,7 @@ const HomeScreen = ({ navigation }) => {
         //action on the button
         onPress={() => navigation.navigate("Login")}
         //giving a title to the button
-        title="takes you to login page"
+        title="Login"
       />
     </View>
   );
